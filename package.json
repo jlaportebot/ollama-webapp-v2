@@ -1,0 +1,15 @@
+{
+  "name": "ollama-webapp",
+  "version": "2.0.0",
+  "description": "Self-hosted Ollama chat webapp — per-IP persistent history",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "express": "^4.18.2",
+    "systeminformation": "^5.23.5"
+  }
+}
